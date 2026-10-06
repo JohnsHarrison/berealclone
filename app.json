@@ -1,15 +1,19 @@
 {
   "expo": {
+    // app name
     "name": "berealclone",
     "slug": "berealclone",
     "version": "1.0.0",
     "orientation": "portrait",
+    // icon that appears on phone home screen
     "icon": "./assets/images/icon.png",
     "scheme": "berealclone",
     "userInterfaceStyle": "automatic",
+    // configure splash screen which runs while app loads
     "ios": {
       "icon": "./assets/expo.icon"
     },
+    // OS specific permissions
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
